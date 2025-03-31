@@ -1,0 +1,6 @@
+[
+{
+  "directory": "D:\\Code\\cpp_co_demo",
+  "arguments": ["clang.exe", "-c", "-Qunused-arguments", "-m64", "-g", "-O0", "-o", "build\\.objs\\cpp_co_demo\\linux\\x86_64\\debug\\src\\main.cpp.o", "src\\main.cpp"],
+  "file": "src\\main.cpp"
+}]
