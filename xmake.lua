@@ -3,7 +3,8 @@ add_rules("mode.debug", "mode.release")
 target("cpp_co_demo")
     set_kind("binary")
     add_files("src/*.cpp")
-
+    add_includedirs("inc/")
+    set_languages("c11", "c++20")
 --
 -- If you want to known more usage about xmake, please see https://xmake.io
 --

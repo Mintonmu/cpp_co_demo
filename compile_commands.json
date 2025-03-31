@@ -1,6 +1,11 @@
 [
 {
   "directory": "D:\\Code\\cpp_co_demo",
-  "arguments": ["clang.exe", "-c", "-Qunused-arguments", "-m64", "-g", "-O0", "-o", "build\\.objs\\cpp_co_demo\\linux\\x86_64\\debug\\src\\main.cpp.o", "src\\main.cpp"],
+  "arguments": ["clang.exe", "-c", "-Qunused-arguments", "-m64", "-g", "-O0", "-std=c++20", "-Iinc", "-o", "build\\.objs\\cpp_co_demo\\linux\\x86_64\\debug\\src\\main.cpp.o", "src\\main.cpp"],
   "file": "src\\main.cpp"
+},
+{
+  "directory": "D:\\Code\\cpp_co_demo",
+  "arguments": ["clang.exe", "-c", "-Qunused-arguments", "-m64", "-g", "-O0", "-std=c++20", "-Iinc", "-o", "build\\.objs\\cpp_co_demo\\linux\\x86_64\\debug\\src\\UseFacing.cpp.o", "src\\UseFacing.cpp"],
+  "file": "src\\UseFacing.cpp"
 }]

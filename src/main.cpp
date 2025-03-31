@@ -1,6 +1,6 @@
-#include <iostream>
+#include "UseFacing.h"
 
 int main(int argc, char **argv) {
-  std::cout << "hello world!" << std::endl;
+  UserFacing demo_instance = demo_coroutine();
   return 0;
 }
